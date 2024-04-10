@@ -4,6 +4,8 @@ A demonstration/test of the dangers of using default visibility for symbols in C
 
 For the LabJack blog post containing this same information: [Simple C++ Symbol Visibility Demo](https://labjack.com/news/simple-cpp-symbol-visibility-demo)
 
+中文参考博客：[Linux下__attribute__((visibility ("default")))的使用](https://blog.csdn.net/fengbingchun/article/details/78898623)
+
 ## Introduction
 
 This document briefly walks through why and how to use the `-fvisibility=hidden` compilation flag along with `__attribute__((__visibility__("default")))` in symbol declarations.
